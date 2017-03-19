@@ -27,6 +27,7 @@ img.me {
 
 .center {
 	text-align: center;
+	text-shadow: 1px 1px;
 }
 
 div.firstcard {
@@ -36,6 +37,7 @@ div.firstcard {
 
 .cap {
 	padding-left: 170px;
+	
 }
 
 div.secondcard {
