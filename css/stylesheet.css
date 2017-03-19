@@ -2,6 +2,19 @@ body {
 	background-image: url(../img/biggrey.jpeg)
 }
 
+.signout {
+	margin-top: 10px;
+	margin-left: 70px;
+	background-color: slategrey;
+	width: 150px;
+    color: black;
+    border: black;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.5s;
+   
+}
+
 img.me {
 	width: 30%;
 	display: block;
@@ -82,4 +95,10 @@ div.fourthcard {
 .inst {
 	height: 30px;
 	widows: 20px;
+}
+
+.yt {
+	height: 30px;
+	widows: 20px;
+	padding-left: 10px;
 }
