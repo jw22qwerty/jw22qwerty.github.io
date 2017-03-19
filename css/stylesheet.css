@@ -1,0 +1,85 @@
+body {
+	background-image: url(../img/biggrey.jpeg)
+}
+
+img.me {
+	width: 30%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	cursor:crosshair;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.center {
+	text-align: center;
+}
+
+div.firstcard {
+	margin-left: 30px;
+
+}
+
+.cap {
+	padding-left: 170px;
+}
+
+div.secondcard {
+	margin-left: 30px;
+	margin-top: 20px;
+	
+}
+
+.studying {
+	margin-bottom: 30px;
+}
+
+.googlemap {
+	display: block;
+	margin: auto;
+	border-radius: 50px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.weather {
+	margin-left: 60px;
+	margin-top: 40px;
+	border-radius: 50px;
+}
+
+div.thirdcard {
+	border-style: dotted;
+	border-radius: 12px;
+	background-image: url(../img/theone.jpg);
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+div.fourthcard {
+	border-style: dotted;
+	border-radius: 12px;
+	background-image: url(../img/theone.jpg);
+	padding-left: 20px;
+	margin-right: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.fb {
+	height: 30px;
+	width: 20px;
+}
+
+.tw {
+	height: 30px;
+	width: 20px;
+}
+
+.inst {
+	height: 30px;
+	widows: 20px;
+}
