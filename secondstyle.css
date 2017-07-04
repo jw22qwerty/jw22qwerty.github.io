@@ -1,47 +1,92 @@
 div.icons {
-	margin-left: 50px;
+ margin-left: 50px;
 }
 
 body {
-	background-image: url(../img/homewood.jpg);
+ background-image: url(../img/homewood.jpg);
 }
 
 .button {
-	width: 200px;
-	height: 50px;
-	position: absolute;
-    top:50%;
-    left:42%;
-    background-image: url(../img/grey.jpeg); 
-    color: white;
-    border: black;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    transition: all 0.5s;
-    cursor: pointer;
+ width: 200px;
+ height: 50px;
+ position: absolute;
+ top:50%;
+ left:42%;
+ background-image: url(../img/grey.jpeg); 
+ color: white;
+ border: black;
+ border-radius: 12px;
+ box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ transition: all 0.5s;
+ cursor: pointer;
+ opacity: 0.8;
 }
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
+ cursor: pointer;
+ display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
 .button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+ padding-right: 25px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
+ opacity: 1;
+ right: 0;
+}
 
+.funky span {
+ cursor: pointer;
+ display: inline-block;
+ position: relative;
+ transition: 0.5s;
+}
+
+.funky span:after {
+ content: '\00bb';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -20px;
+ transition: 0.5s;
+}
+
+.funky:hover span {
+ padding-right: 25px;
+}
+
+.funky:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+.login {	
+ position: absolute;
+ top:50%;
+ left:42%;
+ width: 200px;
+ height: 92px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ background-image: url(../img/grey.jpeg); 
+ color: white;
+ border: black;
+ border-radius: 12px;
+ box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ opacity: 0.85;
+}
+    
+
+    
